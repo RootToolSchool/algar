@@ -37,7 +37,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println("Start");
 }
-//by Dirk Sarodnik
+
 void loop() {
   CalcDist();
   if(dist <= minDist && dist != 0){
